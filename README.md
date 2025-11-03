@@ -74,7 +74,7 @@ Follow these steps to install and use the Email Writer Assistant on your compute
 6\. The Email Writer Assistant icon will appear in your extensions bar.
 
 
-**<span style="color:blue; font-weight:bold;">Step 3 — Use in Gmail</span>**
+### 🟨 Step 3 — Use in Gmail
 
 1\. Go to Gmail
 
