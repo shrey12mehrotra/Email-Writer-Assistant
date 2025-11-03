@@ -50,7 +50,7 @@ Email-Writer-Assistant/
 
 Follow these steps to install and use the Email Writer Assistant on your computer.
 
-<b><span style="color:blue; font-weight:bold;">Step 1 — Download the Extension</span></b>
+### 🟦 Step 1 — Download the Extension
     
 1\. Click on the green Code button above, then choose Download ZIP.
 
@@ -59,7 +59,7 @@ Follow these steps to install and use the Email Writer Assistant on your compute
 3\. Open the extracted folder and find the extension folder.
 
 
-**<span style="color:blue; font-weight:bold;">Step 2 — Load Extension into Chrome</span>**
+### 🟩  Step 2 — Load Extension into Chrome
 
 1\. Open Google Chrome.
 
