@@ -1,14 +1,25 @@
-# Use an official Java image
+# Use an official Java 21 image
 FROM openjdk:21-jdk-slim
 
-# Set working directory
+# Set working directory inside container
 WORKDIR /app
 
-# Copy the jar file from target folder into the container
-COPY target/email-assistant-0.0.1-SNAPSHOT.jar app.jar
+# Copy the Maven wrapper and pom.xml first
+COPY mvnw .
+COPY .mvn .mvn
+COPY pom.xml .
 
-# Expose port 8080 (Spring Boot default)
+# Download dependencies (this step will cache dependencies in Docker)
+RUN ./mvnw dependency:go-offline -B
+
+# Copy the rest of the project
+COPY src src
+
+# Build the Spring Boot JAR inside the container
+RUN ./mvnw clean package -DskipTests
+
+# Expose port 8080 for Spring Boot
 EXPOSE 8080
 
-# Start the Spring Boot app
-ENTRYPOINT ["java", "-jar", "app.jar"]
+# Run the built application
+ENTRYPOINT ["java", "-jar", "target/email-assistant-0.0.1-SNAPSHOT.jar"]
