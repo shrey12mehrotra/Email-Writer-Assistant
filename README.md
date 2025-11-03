@@ -50,7 +50,7 @@ Email-Writer-Assistant/
 
 Follow these steps to install and use the Email Writer Assistant on your computer.
 
-<span style="color:blue; font-weight:bold;">Step 1 — Download the Extension</span>
+<b><span style="color:blue; font-weight:bold;">Step 1 — Download the Extension</span></b>
     
 1\. Click on the green Code button above, then choose Download ZIP.
 
