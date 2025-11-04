@@ -21,6 +21,7 @@ It automatically generates responses based on the email content and your chosen 
 
 ## 🧩 Folder Structure
 
+```
 Email-Writer-Assistant/
 │
 ├── backend/ # Already deployed backend (you don't need to touch this)
@@ -31,6 +32,7 @@ Email-Writer-Assistant/
 │ ├── content.css
 │
 └── README.md
+```
 
 
 ## 🧠 How It Works
