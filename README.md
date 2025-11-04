@@ -23,16 +23,7 @@ It automatically generates responses based on the email content and your chosen 
 
 Email-Writer-Assistant/
 
-│
-├── backend/           # Already deployed backend (you don't need to touch this)
-│
-├── extension/         # Chrome extension source
-│   ├── manifest.json
-│   ├── content.js
-│   ├── content.css
-│   
-│
-└── README.md
+<pre> ``` Email-Writer-Assistant/ │ ├── backend/ # Already deployed backend (you don't need to touch this) │ ├── extension/ # Chrome extension source │ ├── manifest.json │ ├── content.js │ ├── content.css │ └── README.md ``` </pre>
 
 
 ## 🧠 How It Works
