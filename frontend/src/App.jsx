@@ -11,6 +11,7 @@ function App() {
   const [generatedResponse, setGeneratedResponse] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [copied, setCopied] = useState(false);
 
   const handleSubmit = async () => {
     setLoading(true);
@@ -108,7 +109,12 @@ function App() {
                 fontSize: '1rem',
                 borderRadius: '12px', 
               }}>
-          {loading ? <CircularProgress size={24}/> : "Generate Reply"}
+          {loading ? (
+              <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1 }}>
+                <CircularProgress size={20} color="inherit" /> {/* spinner visible */}
+                Generating Reply...
+              </Box>
+            ) : "Generate Reply"}
         </Button>
          </motion.div>
         </motion.div>
@@ -159,7 +165,7 @@ function App() {
               style: { whiteSpace: 'pre-wrap', lineHeight: 1.6, color: '#333' }}}
           />
           </Paper>
-
+          <Box sx={{  display: 'flex', alignItems: 'center', gap: 2, mt: 2 }}>
           <Button
           variant='outlined'
           sx={{
@@ -168,9 +174,30 @@ function App() {
                   fontWeight: '600',
                   textTransform: 'none',
                 }}
-          onClick={() => navigator.clipboard.writeText(generatedResponse)}>
+          onClick={
+            () => {navigator.clipboard.writeText(generatedResponse);
+            setCopied(true);
+            setTimeout(() => setCopied(false), 2000);
+            }}>
             Copy to Clipboard
           </Button>
+          
+          {/* Smooth fading 'Copied!' text */}
+          <motion.div
+             initial={{ opacity: 0, y: 10 }} // starts slightly below
+             animate={{ opacity: copied ? 1 : 0, y: copied ? 0 : 10 }} // moves up to align
+             transition={{ duration: 0.4, ease: 'easeOut' }} //  upward motion
+             style={{
+                color: '#5276eaff',
+                fontWeight: 600,
+                fontSize: '0.9rem',
+                position: 'relative',
+                marginTop: '2px', 
+            }}
+          >
+            Copied!
+          </motion.div>
+          </Box>
         </Box>
           </motion.div>
       )}
