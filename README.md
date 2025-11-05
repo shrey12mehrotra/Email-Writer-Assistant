@@ -125,8 +125,12 @@ const response = await fetch('https://email-writer-assistant-s3kc.onrender.com/a
 
 ## 🧰 Tech Stack
 
-* Frontend: Chrome Extension (JavaScript, HTML, CSS)
+* Frontend: 
+    * Application: React (Vite), Material UI, Framer Motion
+    * Chrome Extension: JavaScript, HTML, CSS
 * Backend: Spring Boot (Java)
 * AI Engine: Gemini API
-* Hosting: Render (Free Tier)
+* Hosting: 
+    * Frontend → Netlify
+    * Backend → Render
 
