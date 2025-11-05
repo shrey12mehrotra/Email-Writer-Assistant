@@ -3,20 +3,24 @@
 
 ## 🚀 Overview
 
-Email Writer Assistant is a free Chrome Extension that helps you write quick, polished replies in Gmail using AI.
+SmartAI Email Assistant helps you write smart, context-aware replies using AI — both as a Chrome Extension for Gmail and a dedicated web app.
 
 It automatically generates responses based on the email content and your chosen tone — powered by a secure backend hosted online.
+
+* 🧩 Chrome Extension: Instantly generates replies inside Gmail.
+* 🌐 Frontend Web App: Type or paste an email and get a polished AI-generated response.
+* ⚙️ Backend API: Secure Spring Boot service hosted online and integrated with Gemini AI.
+
+**🔗 Check it out :** [https://smartai-email-assistant.netlify.app/](https://smartai-email-assistant.netlify.app/)
 
 
 ## ✨ Features
 
-🧠 AI-generated email replies inside Gmail
-
-🎭 Choose your reply tone — Professional, Friendly, Casual, Formal, etc.
-
-💬 Works directly in Gmail’s compose window
-
-💯 100% free — no setup or API key needed
+✅ AI-powered email reply generation
+🎭 Multiple tones — Professional, Friendly, Formal, Casual, and more
+💬 Seamless Gmail integration via Chrome Extension
+⚡ Real-time response generation
+💯 100% free — no setup or API key required
 
 
 ## 🧩 Folder Structure
@@ -31,12 +35,15 @@ Email-Writer-Assistant/
 │ ├── content.js
 │ ├── content.css
 │
+├── frontend/ # React frontend (Netlify deployed)
+│
 └── README.md
 ```
 
 
-## 🧠 How It Works
+## 💡 How It Works
 
+🧠 Chrome Extension
 1\. The Chrome Extension detects when you open Gmail.
 
 2\. It adds an “AI Reply” button inside the email toolbar.
@@ -45,8 +52,18 @@ Email-Writer-Assistant/
 
 4\. The backend generates and inserts a smart reply automatically.
 
+🌐 Web App
 
-## 🛠️ Setup Guide
+1\. Visit [https://smartai-email-assistant.netlify.app/](https://smartai-email-assistant.netlify.app/).
+
+2\. Paste any email content.
+
+3\. Select tone and click Generate Reply.
+
+4\. Copy or use the AI-generated response instantly.
+
+
+## 🛠️ Setup Guide for Extension
 
 Follow these steps to install and use the Email Writer Assistant on your computer.
 
@@ -111,11 +128,4 @@ const response = await fetch('https://email-writer-assistant-s3kc.onrender.com/a
 * Backend: Spring Boot (Java)
 * AI Engine: Gemini API
 * Hosting: Render (Free Tier)
-
-
-## 🧑‍💻 Developed By
-
-Email Writer Assistant is built and maintained by **Shrey Mehrotra**.
-
-It’s free to use, open-source, and designed to make email writing effortless.
 
