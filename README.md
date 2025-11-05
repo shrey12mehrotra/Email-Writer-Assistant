@@ -43,7 +43,8 @@ Email-Writer-Assistant/
 
 ## 💡 How It Works
 
-🧠 Chrome Extension
+### 🧠 Chrome Extension
+
 1\. The Chrome Extension detects when you open Gmail.
 
 2\. It adds an “AI Reply” button inside the email toolbar.
@@ -52,7 +53,7 @@ Email-Writer-Assistant/
 
 4\. The backend generates and inserts a smart reply automatically.
 
-🌐 Web App
+### 🌐 Web App
 
 1\. Visit [https://smartai-email-assistant.netlify.app/](https://smartai-email-assistant.netlify.app/).
 
@@ -80,7 +81,7 @@ Follow these steps to install and use the Email Writer Assistant on your compute
 
 1\. Open Google Chrome.
 
-2\. Go to: 👉 chrome://extensions/
+2\. Go to: 👉 [chrome://extensions/](chrome://extensions/)
 
 3\. Turn on Developer mode (top-right corner).
 
