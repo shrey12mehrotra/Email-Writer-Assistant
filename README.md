@@ -1,4 +1,4 @@
-# 📧 Email Writer Assistant — Chrome Extension
+# 📧 Email Writer Assistant — Chrome Extension & Application
 
 
 ## 🚀 Overview
