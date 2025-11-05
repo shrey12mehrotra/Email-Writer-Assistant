@@ -17,9 +17,13 @@ It automatically generates responses based on the email content and your chosen 
 ## ✨ Features
 
 ✅ AI-powered email reply generation
+
 🎭 Multiple tones — Professional, Friendly, Formal, Casual, and more
+
 💬 Seamless Gmail integration via Chrome Extension
+
 ⚡ Real-time response generation
+
 💯 100% free — no setup or API key required
 
 
