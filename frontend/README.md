@@ -1,16 +1,46 @@
-# React + Vite
+# SmartAI Email Assistant – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to SmartAI Email Assistant — your personal AI tool that helps you instantly generate email replies with tone of your choice and clarity.I
 
-Currently, two official plugins are available:
+Built with React + Material UI + Framer Motion, and deployed on Netlify.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**🔗 Check it out :** [https://smartai-email-assistant.netlify.app/](https://smartai-email-assistant.netlify.app/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+🧠 AI-powered email reply generation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📋 One-click copy to clipboard with subtle visual feedback
+
+
+## 💡 What Is SmartAI Email Assistant?
+
+SmartAI Email Assistant is a simple, intelligent web app that helps you save time writing replies to emails.
+
+Just paste the email you received, select your preferred tone (like Professional, Casual, or Friendly), and get a ready-to-send reply written for you by AI.
+
+
+## 🧭 How It Works
+
+1\. Paste Your Email
+Copy and paste the email you received into the input box.
+
+2\. Choose Tone (Optional)
+Pick a tone for your reply — Professional, Casual, or Friendly.
+
+3\. Click Generate Reply
+The app instantly generates a clear, context-aware response using AI.
+
+4\. Copy & Send
+Click “Copy to Clipboard” to copy your AI-generated email and paste it wherever you like.
+
+
+## 🏗️ Tech Stack
+
+* Frontend Framework -> React (Vite)
+* UI Library -> Material UI (MUI)
+* Animations -> Framer Motion
+* Styling	-> CSS + MUI Theme
+* Deployment -> Netlify
+* Backend	-> Render (Node.js / Express)
