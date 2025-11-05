@@ -10,12 +10,14 @@ Built with React + Material UI + Framer Motion, and deployed on Netlify.
 ## 🚀 Features
 
 🧠 AI-powered email reply generation
+
 📋 One-click copy to clipboard with subtle visual feedback
 
 
 ## 💡 What Is SmartAI Email Assistant?
 
 SmartAI Email Assistant is a simple, intelligent web app that helps you save time writing replies to emails.
+
 Just paste the email you received, select your preferred tone (like Professional, Casual, or Friendly), and get a ready-to-send reply written for you by AI.
 
 
