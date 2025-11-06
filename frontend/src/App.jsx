@@ -35,7 +35,8 @@ function App() {
     <Container 
     maxWidth="md"
       sx={{
-        py: 6, 
+        py: 3, 
+        mt: 2,
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -57,9 +58,11 @@ function App() {
         sx={{
           p: 4,
           width: '100%',
+          maxWidth: 700,
           borderRadius: 4,
           backdropFilter: 'blur(12px)',
           background: 'rgba(255, 255, 255, 0.9)',
+          mx: 'auto'
         }}
       >
         {/* Fade animation */}
@@ -72,7 +75,8 @@ function App() {
         <TextField
           fullWidth
           multiline
-          rows={6}
+          minRows={5}
+          rows={8}
           variant='outlined'
           label="Original Email Content"
           value={emailContent || ''}
